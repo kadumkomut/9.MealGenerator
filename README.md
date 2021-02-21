@@ -39,3 +39,10 @@
 - Learn about context api
 - Learn about api's
 - Learn about Search api
+
+## How To Run
+
+- npm install
+- npm start
+
+All API ARE PUBLIC AND FREE OF USE, IF YOU NEED EXTRA FEATURE'S FROM API, VISIT THEMEALDB.COM
