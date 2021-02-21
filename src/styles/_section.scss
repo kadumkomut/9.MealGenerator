@@ -1,0 +1,168 @@
+.section {
+    width: 1200px;
+    margin:auto;
+    padding:17px 30px;
+    opacity: 0.8;
+    word-wrap: break-word;
+
+    
+    .sectionBox {
+
+        .sectionBoxList {
+            display: flex;
+            padding:15px 0;
+            justify-content: space-evenly;
+            
+            div {
+                width: 300px;
+                height: 300px;
+                border-radius: 50%;
+                line-height: 300px;
+                background-color:#ff390d;
+                text-align: center;
+                font-size: 1.7rem;
+                font-weight: bold;
+                color:white;
+                cursor: pointer;
+                &:hover {
+                    background-color: #cc320f;
+                }
+            }        
+        }
+        
+        
+    }
+
+    .randomMealMain {
+        word-wrap: break-word;
+
+        .randomMealContent {
+            .top {
+                display: flex;
+                .left {
+    
+                    width: 50%;
+                    display: flex;
+                    flex-direction: column;
+                    label {
+    
+                        font-size: 2rem;
+                        text-align: left;
+                        color: #eb2f06;
+                        font-weight: bold;
+                        margin-bottom: 10px;
+                    }
+                    img {
+                        width: 80%;
+                    }
+                }
+    
+                .right {
+                    width: 50%;
+                    display: flex;
+                    flex-direction: column;
+                    label{
+                        font-size: 2rem;
+                        text-align: left;
+                        color: #eb2f06;
+                        font-weight: bold;
+                        margin-bottom: 10px;
+                    }
+                    .content {
+                        display: grid;
+                        align-items: center;
+                        list-style-type: none;
+                        width: 80%;
+                        background-color: white;
+
+                        grid-template-columns: 1fr 1fr;
+                        div {
+                            padding: 30px 20px;
+                            background-color: white;
+                            color:black;
+    
+                            &:hover {
+                                background-color:#eb2f06 ;
+                                color:white;
+                            }
+                        }
+                    }
+                }
+                
+            }
+            .middle {
+                word-wrap: break-word;
+                overflow-wrap: break-word;
+                margin-top:20px;
+                label {
+                    font-size: 2rem;
+                    text-align: left;
+                    color: #eb2f06;
+                    font-weight: bold;
+                    margin-bottom: 10px;                    
+                }
+                pre {
+                    font-size: 1.7rem;
+                    font-weight: bold;
+                    width: 100%;
+                    background-color: white;
+                    padding: 20px;
+                    white-space: pre-wrap;
+                }
+            }
+            .youtube {
+                label {
+                    font-size: 2rem;
+                    text-align: left;
+                    color: #eb2f06;
+                    font-weight: bold;
+                    margin-bottom: 20px;   
+                    padding:10px 0;                 
+                }
+                div {
+                    width: 100%;
+                }
+            }
+            .extra {
+                padding:30px 0px;
+                label {
+                    font-size: 1.4rem;
+                    text-align: left;
+                    color: #0c2461;
+                    font-weight: bold;
+                    margin-bottom: 20px;
+                    
+                    a {
+                        color: #0b2c80;
+
+                        &:hover {
+                            color: #0c2461;
+                        }
+                    }
+                }
+            }
+        }
+
+        
+    }
+
+    .letter {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bold;
+
+        .slash {
+            color:grey;
+        }
+        .char {
+            color: #eb2f06;
+            padding:3px;
+            cursor: pointer;
+
+            &:hover {
+                color:#e07714;
+                text-decoration: underline;
+            }
+        }
+    }
+}

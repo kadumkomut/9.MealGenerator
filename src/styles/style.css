@@ -1,0 +1,373 @@
+::-webkit-scrollbar {
+  width: 6px !important;
+  height: 6px !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  height: 1px !important;
+  width: 1px !important;
+  background: #e6d4d4;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c2baba;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #c2baba;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+  background-color: #38ada9;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.Main {
+  position: relative;
+  min-height: 100vh;
+}
+
+.Main header {
+  background-color: #eb2f06;
+  padding: 10px 0;
+  color: white;
+}
+
+.Main header div {
+  width: 1200px;
+  margin: auto;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Main header div img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  padding: 4px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.Main header div .form {
+  justify-self: flex-end;
+  position: absolute;
+  right: 10px;
+  border: 0;
+  width: 250px;
+}
+
+.Main header div .form input {
+  padding: 7px;
+  outline: none;
+  font-size: 1.1rem;
+  border-radius: 3px;
+}
+
+.Main .section {
+  width: 1200px;
+  margin: auto;
+  padding: 17px 30px;
+  opacity: 0.8;
+  word-wrap: break-word;
+}
+
+.Main .section .sectionBox .sectionBoxList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px 0;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.Main .section .sectionBox .sectionBoxList div {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  line-height: 300px;
+  background-color: #ff390d;
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.Main .section .sectionBox .sectionBoxList div:hover {
+  background-color: #cc320f;
+}
+
+.Main .section .randomMealMain {
+  word-wrap: break-word;
+}
+
+.Main .section .randomMealMain .randomMealContent .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Main .section .randomMealMain .randomMealContent .top .left {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Main .section .randomMealMain .randomMealContent .top .left label {
+  font-size: 2rem;
+  text-align: left;
+  color: #eb2f06;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.Main .section .randomMealMain .randomMealContent .top .left img {
+  width: 80%;
+}
+
+.Main .section .randomMealMain .randomMealContent .top .right {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Main .section .randomMealMain .randomMealContent .top .right label {
+  font-size: 2rem;
+  text-align: left;
+  color: #eb2f06;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.Main .section .randomMealMain .randomMealContent .top .right .content {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+  width: 80%;
+  background-color: white;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.Main .section .randomMealMain .randomMealContent .top .right .content div {
+  padding: 30px 20px;
+  background-color: white;
+  color: black;
+}
+
+.Main .section .randomMealMain .randomMealContent .top .right .content div:hover {
+  background-color: #eb2f06;
+  color: white;
+}
+
+.Main .section .randomMealMain .randomMealContent .middle {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  margin-top: 20px;
+}
+
+.Main .section .randomMealMain .randomMealContent .middle label {
+  font-size: 2rem;
+  text-align: left;
+  color: #eb2f06;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.Main .section .randomMealMain .randomMealContent .middle pre {
+  font-size: 1.7rem;
+  font-weight: bold;
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  white-space: pre-wrap;
+}
+
+.Main .section .randomMealMain .randomMealContent .youtube label {
+  font-size: 2rem;
+  text-align: left;
+  color: #eb2f06;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding: 10px 0;
+}
+
+.Main .section .randomMealMain .randomMealContent .youtube div {
+  width: 100%;
+}
+
+.Main .section .randomMealMain .randomMealContent .extra {
+  padding: 30px 0px;
+}
+
+.Main .section .randomMealMain .randomMealContent .extra label {
+  font-size: 1.4rem;
+  text-align: left;
+  color: #0c2461;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.Main .section .randomMealMain .randomMealContent .extra label a {
+  color: #0b2c80;
+}
+
+.Main .section .randomMealMain .randomMealContent .extra label a:hover {
+  color: #0c2461;
+}
+
+.Main .section .letter {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.Main .section .letter .slash {
+  color: grey;
+}
+
+.Main .section .letter .char {
+  color: #eb2f06;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.Main .section .letter .char:hover {
+  color: #e07714;
+  text-decoration: underline;
+}
+
+.Main footer {
+  background-color: #0c2461;
+  color: white;
+  width: 100%;
+  padding: 20px 100px;
+}
+
+.Main footer .social-media {
+  width: 80%;
+  padding-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  border-bottom: 1px solid grey;
+}
+
+.Main footer .social-media div {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  border: 0;
+  margin-right: 20px;
+  font-weight: bolder;
+  line-height: 50px;
+  background-color: white;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.Main footer .social-media div:hover {
+  background-color: white;
+  color: #273036;
+}
+
+.Main footer .social-media .facebook {
+  background-color: #4267B2;
+  color: white;
+}
+
+.Main footer .social-media .google {
+  background-color: #DB4437;
+  color: white;
+}
+
+.Main footer .social-media .twitter {
+  background-color: #1DA1F2;
+  color: white;
+}
+
+.Main footer .social-media .linkedin {
+  background-color: #2867B2;
+  color: white;
+}
+
+.Main footer .social-media .github {
+  background-color: #6e5494;
+  color: white;
+}
+
+.Main footer .footer-text {
+  padding-top: 30px;
+  text-align: center;
+  color: white;
+}
+
+@media only screen and (max-width: 1255px) {
+  .Main header div {
+    width: 900px;
+  }
+  .Main section {
+    width: 900px;
+  }
+}
+
+@media only screen and (max-width: 975px) {
+  .Main header div {
+    width: 700px;
+  }
+  .Main section {
+    width: 700px;
+  }
+}
+
+@media only screen and (max-width: 745px) {
+  .Main header div {
+    width: 600px;
+  }
+  .Main section {
+    width: 600px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
