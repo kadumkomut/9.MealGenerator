@@ -46,3 +46,7 @@
 - npm start
 
 All API ARE PUBLIC AND FREE OF USE, IF YOU NEED EXTRA FEATURE'S FROM API, VISIT THEMEALDB.COM
+
+## NOTES
+
+Kind of exhausting, was built in a day .. approx 7hours
